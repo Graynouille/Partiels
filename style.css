@@ -1,3 +1,88 @@
-body{
-    background-color: red;
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+}
+
+
+.partone{
+    padding: 50px; ;
+    display: flex;
+    justify-content: center; 
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 140px;
+}
+
+.blog{
+    padding: 50px;
+}
+
+.quote{
+    padding: 50px;
+    color: white; 
+}
+
+.bg-dark{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    border-radius: 24px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paragraphs{
+    display: flex;
+    padding: 153px;    
+    justify-content: center;
+    padding: 365px;
+}
+
+.title{
+    display: flex;
+    padding: 25px;
+}
+
+.paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.quotetwo{
+    font-size: medium;
+    margin: -17px;
+}
+
+.blockquote > :last-child {
+    margin-bottom: 0;
+    font-size: 40px;
+    padding: 150px;
+}
+
+.blockquote-footer{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875em;
+    color: #212529;
+    margin-top: -161px;
+    padding: 50px;
+}
+
+.payne{
+    height: 20px;
+}
+
+#footer{
+    display: flex; 
+    justify-content: center;
+    color: white;
+    padding: 50px; 
 }
